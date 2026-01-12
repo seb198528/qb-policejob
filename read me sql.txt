@@ -1,0 +1,11 @@
+⚠️ Assure-toi que la table players a les colonnes :
+
+drivingpoints (INT, défaut 12)
+licenseloss (INT, timestamp UNIX)
+
+
+sinon execute;
+
+ALTER TABLE `players`
+ADD COLUMN `drivingpoints` INT(11) DEFAULT 12 AFTER `charinfo`,
+ADD COLUMN `licenseloss` INT(11) DEFAULT 0 AFTER `drivingpoints`;

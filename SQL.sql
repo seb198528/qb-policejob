@@ -1,0 +1,31 @@
+-- Amendes
+CREATE TABLE IF NOT EXISTS `player_fines` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `citizenid` VARCHAR(50) DEFAULT NULL,
+  `amount` INT(11) DEFAULT NULL,
+  `reason` VARCHAR(255) DEFAULT NULL,
+  `officer_id` INT(11) DEFAULT NULL,
+  `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `citizenid` (`citizenid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Photos
+CREATE TABLE IF NOT EXISTS `police_photos` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `citizenid` VARCHAR(50) NOT NULL,
+  `coords` LONGTEXT DEFAULT NULL,
+  `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Radar
+CREATE TABLE IF NOT EXISTS `speeding_logs` (
+  `id` INT(11) NOT ON NULL AUTO_INCREMENT,
+  `plate` VARCHAR(20) NOT NULL,
+  `speed` INT(11) NOT NULL,
+  `officer_citizenid` VARCHAR(50) NOT NULL,
+  `location` LONGTEXT DEFAULT NULL,
+  `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

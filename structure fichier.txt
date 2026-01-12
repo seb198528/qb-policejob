@@ -1,0 +1,28 @@
+qb-policejob/
+├── client/
+│   ├── main.lua
+│   ├── arrest.lua
+│   ├── radar.lua
+│   ├── camera.lua
+│   ├── jail.lua
+│   ├── radio.lua
+│   ├── helicopter.lua
+│   ├── patrol.lua
+│   ├── bodycam.lua
+│   ├── uniforms.lua
+│   ├── k9.lua
+│   ├── swat.lua
+│   └── walkie.lua          <-- ✅ NOUVEAU
+├── server/
+│   └── main.lua
+├── shared/
+│   └── config.lua
+├── locales/
+│   └── en.lua
+└── fxmanifest.lua
+
+qb-hud/                     <-- ✅ PATCH COMPLET
+├── html/
+│   ├── ui.html
+│   └── js/app.js
+└── (autres fichiers inchangés)
