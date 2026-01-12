@@ -11,9 +11,6 @@
 ---
 
 ## ✅ Fonctionnalités
-...
-
-## ✅ Fonctionnalités
 - Menottage / Libération
 - K9, SWAT, Drone, Hélicoptère
 - Bodycam + intégration ps-mdt
