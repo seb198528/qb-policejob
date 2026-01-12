@@ -1,6 +1,17 @@
 # qb-policejob - Police Job ULTIME pour QBCore
 
-![Police](https://img.icons8.com/color/48/police.png)
+![GitHub Release](https://img.shields.io/github/v/release/seb198528/qb-policejob?style=for-the-badge&label=Version)
+![GitHub License](https://img.shields.io/github/license/seb198528/qb-policejob?style=for-the-badge)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/seb198528/qb-policejob?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/seb198528/qb-policejob?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/seb198528/qb-policejob?style=for-the-badge)
+
+> 🚔 Le job policier le plus complet pour **QBCore FiveM** – K9, SWAT, Bodycam, Talkie, HUD, Drone & plus !
+
+---
+
+## ✅ Fonctionnalités
+...
 
 ## ✅ Fonctionnalités
 - Menottage / Libération
